@@ -1,10 +1,12 @@
 <!-- Part 9 -->
 <?php
-    $firstName = "Jane";                     // String type variable
-    $lastName = "Doe";                       // String type variable
-    $age = 35;                               // Integer type variable
+    ini_set('display_errors',1);
+
+    $firstName = "Jennifer";                  // String type variable
+    $lastName = "Smith";                       // String type variable
+    $age = 42;                               // Integer type variable
     $married = true;                         // Boolean type variable
-    $childrenNames = array("Alice", "Bob");   // Array type variable
+    $childrenNames = array("Nick","Judy","Nicole");   // Array type variable
 
     function getFullName($firstName, $lastName) {
         return  $firstName . " " . $lastName;         // Concatenation Operator
