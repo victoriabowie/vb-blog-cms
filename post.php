@@ -9,11 +9,12 @@
         <main>
             <?php
                 function getPostDetailsFromDatabase() {
-
+//This means to hardcode = to this post fox
                 $postDetails = array('title' => 'Animal: Fox', 
                                         'date' => '10/05/2019',
                                         'author' => 'Victoria Bowie',
-                                        'content' => '<p> Diet: Foxes are omnivores. This means that they eat meat and vegetation.</p>
+                                        'content' => '<img src="images/fox.jpg" width="30%" title="Happy Fox" alt="Fox in Field"/
+                                        class="pic1"><p> Diet: Foxes are omnivores. This means that they eat meat and vegetation.</p>
                                             <p> Offspring: Fox babies are called pups.</p>'
                                         );
                     return $postDetails;
